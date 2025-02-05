@@ -1,0 +1,45 @@
+/* Nav bar styling */
+
+body,
+html {
+  margin: 0px auto;
+  padding: 0%;
+  max-width: 1440px;
+}
+
+header .nav-logo {
+  display: inline-block;
+}
+
+.amzn-icon,
+.cart-icon {
+  height: 40px;
+  width: 40px;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid rgb(168, 0, 168);
+}
+
+.nav-menu {
+  width: 60%;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  display: flex;
+  width: 70%;
+  margin-left: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu ul li {
+  font-size: 1.2em;
+  cursor: pointer;
+}
