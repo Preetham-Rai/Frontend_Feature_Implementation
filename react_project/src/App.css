@@ -1,0 +1,54 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/*Styling Navigation Bar */
+.nav-header {
+  margin: 0px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-header .main-heading {
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+}
+
+.nav-header .main-heading .company-name {
+  color: #ebb866;
+  padding-left: 10px;
+}
+
+.nav-header .main-heading .company-name span {
+  color: #55b7a8;
+  padding-left: 2px;
+}
+
+.nav-header .navigation-bar {
+  width: 30%;
+  position: absolute;
+  right: 15%;
+}
+
+.nav-header .navigation-bar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-header .userRegBtn {
+  margin-right: 20px;
+}
+
+.nav-header .userRegBtn button {
+  margin-right: 12px;
+  padding: 6px 20px;
+  background-color: #55b7a8;
+  color: white;
+  border: none;
+}
