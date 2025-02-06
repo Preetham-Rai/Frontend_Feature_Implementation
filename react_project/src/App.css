@@ -1,6 +1,12 @@
 .main-container {
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
+  margin: 0 auto;
+}
+
+.homePage-container {
+  width: 95vw;
+  margin: 0 auto;
 }
 
 /*Styling Navigation Bar */
@@ -11,6 +17,8 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(169, 0, 169);
 }
 
 .nav-header .main-heading {
@@ -48,7 +56,28 @@
 .nav-header .userRegBtn button {
   margin-right: 12px;
   padding: 6px 20px;
-  background-color: #55b7a8;
+  background-color: #ebb866;
   color: white;
   border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/* Navigation bar styling ends here */
+/* Banner section styling*/
+
+.banner-container {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.banner {
+  border: 2px solid black;
 }

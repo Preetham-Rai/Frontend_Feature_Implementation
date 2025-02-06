@@ -89,12 +89,14 @@ function NavBar() {
       </nav>
       <div className="userRegBtn">
         <button>
-          <Link to="/login" />
-          Login
+          <Link to="/login" className="link-btn">
+            Login
+          </Link>
         </button>
         <button>
-          <Link to="/signup" />
-          Signup
+          <Link to="/signup" className="link-btn">
+            Signup
+          </Link>
         </button>
       </div>
     </header>
